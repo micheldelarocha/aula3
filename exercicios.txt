@@ -1,0 +1,9 @@
+Exercícios
+
+1> Abra o link do Exercício DOM na W3Schools
+2> Acrescente 3 novas cidades nos links
+3> Retire o sublinhado dos links
+4> Ao passar o mouse sobre o link mude sua cor de fundo
+5> Acrescente um novo parágrafo ao texto
+6> Mude a cor deste último parágrafo
+7> Acrescente um h4 em section e footer, coloque o 1º em itálico e o 2º em outra cor

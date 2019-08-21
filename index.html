@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Exercício</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* Style the header */
+        
+        li {
+            text-align: center;
+            padding: 6px;
+        }
+        
+        li:hover {
+            background-color: white;
+        }
+        
+        header {
+            background-color: #666;
+            padding: 2px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        /* Create two columns/boxes that floats next to each other */
+        
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            /* only for demonstration, should be removed */
+            background: #ccc;
+            padding: 20px;
+        }
+        /* Style the list inside the menu */
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px;
+            /* only for demonstration, should be removed */
+        }
+        
+        article p:last-child {
+            color: blue;
+            font-style: italic;
+        }
+        /* Clear floats after the columns */
+        
+        header h4 {
+            font-style: italic;
+            text-align: center;
+        }
+        
+        section:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* Style the footer */
+        
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        
+        footer h4 {
+            font-weight: bold;
+            color: blue;
+        }
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        
+        @media (max-width: 600px) {
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Cidades</h2>
+        <h4>As melhores cidades para se viver</h4>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Londres</a></li>
+                <li><a href="#">Paris</a></li>
+                <li><a href="#">Tóquio</a></li>
+                <li><a href="#">Pelotas</a></li>
+                <li><a href="#">Rio Grande</a></li>
+                <li><a href="#">Morro Redondo</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>Londres</h1>
+
+            <p>A capital da Inglaterra. É a cidade mais populosa do Reino Unido, com uma região metropolitana de mais de 13 milhões de pessoas.</p>
+            <p>Sob o Rio Tâmisa, Londres tem sido um importante local por dois milênios, com sua história advindo da sua fundação pelos romanos, que a batizaram de Londínia.</p>
+            <p>Londres tem uma gama diversa de povos, culturas, religiões e mais de 300 idiomas são falados em seu território.</p>
+            <p>O Metrô de Londres, administrado pela Transport for London, é a mais extensa rede ferroviária subterrânea do mundo e o Aeroporto de Londres, Heathrow, é o aeroporto mais movimentado do mundo em número de passageiros internacionais.</p>
+        </article>
+    </section>
+
+    <footer>
+        <h4>Guia Turístico Avenida
+            <h4>
+    </footer>
+
+</body>
+
+</html>
